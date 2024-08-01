@@ -5,8 +5,10 @@ go 1.21.4
 require (
 	github.com/bytedance/sonic v1.11.6
 	github.com/shopspring/decimal v1.4.0
-	go.mongodb.org/mongo-driver v1.15.0
+	go.mongodb.org/mongo-driver v1.16.0
 )
+
+require github.com/stretchr/testify v1.9.0 // indirect
 
 require (
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
