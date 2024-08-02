@@ -218,11 +218,6 @@ func mapReduceWithPanicChan[T, U, V any](source <-chan T, panicChan *onceChan, m
 		} else {
 			err = ErrReduceNoOutput
 		}
-		if !ok {
-			err = ErrReduceNoOutput
-		} else {
-			val = v
-		}
 	}
 
 	return
