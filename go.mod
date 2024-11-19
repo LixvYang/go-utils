@@ -9,7 +9,10 @@ require (
 	golang.org/x/sync v0.7.0
 )
 
-require github.com/stretchr/testify v1.9.0
+require (
+	github.com/gofrs/uuid v4.4.0+incompatible
+	github.com/stretchr/testify v1.9.0
+)
 
 require (
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
